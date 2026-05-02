@@ -1,0 +1,72 @@
+company_name: Acme
+content_table: true
+item_name: Item
+items_name: Items
+paging_mode: paging
+copyright_year: 2026
+settings:
+  categories_enabled: true
+  companies_enabled: true
+  tags_enabled: true
+  collections_enabled: true
+  surveys_enabled: true
+  header:
+    submit_enabled: true
+    pricing_enabled: true
+    layout_enabled: true
+    language_enabled: true
+    theme_enabled: true
+    layout_default: home1
+    pagination_default: standard
+    theme_default: light
+  homepage:
+    hero_enabled: true
+    search_enabled: true
+    default_view: classic
+    default_sort: popularity
+  footer:
+    subscribe_enabled: true
+    version_enabled: true
+    theme_selector_enabled: true
+pagination:
+  type: standard
+  itemsPerPage: 12
+custom_menu:
+  header: []
+  footer: []
+version: 0.1.0
+metadata:
+  last_request_data:
+    generation_method: create-update
+    update_with_pull_request: true
+    website_repository_creation_method: create-using-template
+    name: Awesome Memes
+    prompt: Directory of best / well known (or less known, but funny) memes. Make
+      sure each memo has a picture at minimum and some description that include
+      what does it mean / why it's funny, how it was created (if known), some
+      context etc. Picture is best. Either found existing picture for meme or
+      create one.
+    providers:
+      pipeline: agent-pipeline
+      search: tavily
+      ai: openrouter
+      contentExtractor: local-content-extractor
+    pluginConfig:
+      target_keywords:
+        - memes
+        - meme directory
+        - meme images
+        - meme explanations
+        - meme origins
+        - funny pictures
+        - internet culture
+        - meme database
+      target_items: 50
+      max_pages_to_process: 20
+      capture_screenshots: true
+    _processedPluginConfig: {}
+  initial_prompt: Directory of best / well known (or less known, but funny) memes.
+    Make sure each memo has a picture at minimum and some description that
+    include what does it mean / why it's funny, how it was created (if known),
+    some context etc. Picture is best. Either found existing picture for meme or
+    create one.

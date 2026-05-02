@@ -1,0 +1,14 @@
+- id: image-macro
+  name: Image Macro
+- id: object-labeling
+  name: Object Labeling
+- id: stock-photo
+  name: Stock Photo
+- id: meme
+  name: Meme
+- id: phrasal-template
+  name: Phrasal Template
+- id: ranking
+  name: Ranking
+- id: internet-meme
+  name: Internet Meme
