@@ -6,8 +6,9 @@ initial_prompt: Directory of best / well known (or less known, but funny) memes.
   one.
 providers:
   pipeline: agent-pipeline
+  search: tavily
   ai: openrouter
-  contentExtractor: tavily
+  contentExtractor: local-content-extractor
 website_repo: ever-works/awesome-memes-website
 schedule:
   enabled: true

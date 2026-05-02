@@ -12,3 +12,13 @@
   name: Ranking
 - id: internet-meme
   name: Internet Meme
+- id: shiba-inu
+  name: Shiba Inu
+- id: comic-sans
+  name: Comic Sans
+- id: webcomic
+  name: Webcomic
+- id: parody
+  name: Parody
+- id: minimalist
+  name: Minimalist
