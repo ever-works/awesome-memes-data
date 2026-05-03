@@ -22,3 +22,15 @@
   name: Parody
 - id: minimalist
   name: Minimalist
+- id: memes
+  name: Memes
+- id: templates
+  name: Templates
+- id: image-generation
+  name: Image Generation
+- id: hip-hop
+  name: Hip Hop
+- id: studio-photo
+  name: Studio Photo
+- id: "2018"
+  name: "2018"
