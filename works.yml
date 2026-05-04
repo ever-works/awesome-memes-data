@@ -5,10 +5,10 @@ initial_prompt: Directory of best / well known (or less known, but funny) memes.
   context etc. Picture is best. Either found existing picture for meme or create
   one.
 providers:
-  pipeline: agent-pipeline
-  search: tavily
-  ai: openrouter
   contentExtractor: local-content-extractor
+  search: tavily
+  pipeline: agent-pipeline
+  ai: openrouter
 website_repo: ever-works/awesome-memes-website
 schedule:
   enabled: true
