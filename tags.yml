@@ -34,3 +34,15 @@
   name: Studio Photo
 - id: "2018"
   name: "2018"
+- id: world-of-warcraft
+  name: World Of Warcraft
+- id: video
+  name: Video
+- id: catchphrase
+  name: Catchphrase
+- id: movie
+  name: Movie
+- id: copypasta
+  name: Copypasta
+- id: marvel
+  name: Marvel
