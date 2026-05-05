@@ -56,3 +56,29 @@
   name: Cat
 - id: lolspeak
   name: Lolspeak
+- id: golf
+  name: Golf
+- id: photoshop
+  name: Photoshop
+- id: ryder-cup
+  name: Ryder Cup
+- id: south-korea
+  name: South Korea
+- id: subway
+  name: Subway
+- id: vigilante
+  name: Vigilante
+- id: science
+  name: Science
+- id: hoax
+  name: Hoax
+- id: animal
+  name: Animal
+- id: viral-image
+  name: Viral Image
+- id: canada
+  name: Canada
+- id: party
+  name: Party
+- id: photograph-scandal
+  name: Photograph Scandal

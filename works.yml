@@ -34,7 +34,7 @@ pagination:
 custom_menu:
   header: []
   footer: []
-version: 0.1.4
+version: 0.1.5
 metadata:
   last_request_data:
     generation_method: create-update
@@ -77,10 +77,10 @@ metadata:
     create one.
 name: Awesome Memes
 providers:
-  search: tavily
-  contentExtractor: local-content-extractor
   pipeline: agent-pipeline
+  search: tavily
   ai: openrouter
+  contentExtractor: local-content-extractor
 website_repo: ever-works/awesome-memes-website
 schedule:
   enabled: true
