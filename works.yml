@@ -77,14 +77,14 @@ metadata:
     create one.
 name: Awesome Memes
 providers:
-  pipeline: agent-pipeline
   search: tavily
+  contentExtractor: tavily
+  pipeline: agent-pipeline
   ai: openrouter
-  contentExtractor: local-content-extractor
 website_repo: ever-works/awesome-memes-website
 schedule:
   enabled: true
-  cadence: daily
+  cadence: hourly
 initial_prompt: Directory of best / well known (or less known, but funny) memes.
   Make sure each memo has a picture at minimum and some description that include
   what does it mean / why it's funny, how it was created (if known), some
