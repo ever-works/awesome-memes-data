@@ -75,3 +75,13 @@ metadata:
     include what does it mean / why it's funny, how it was created (if known),
     some context etc. Picture is best. Either found existing picture for meme or
     create one.
+name: Awesome Memes
+providers:
+  contentExtractor: local-content-extractor
+  search: tavily
+  pipeline: agent-pipeline
+  ai: openrouter
+website_repo: ever-works/awesome-memes-website
+schedule:
+  enabled: true
+  cadence: daily
