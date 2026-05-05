@@ -1,0 +1,98 @@
+- url: https://api.imgflip.com/get_memes
+  normalized_url: https://api.imgflip.com/get_memes
+  first_seen_at: 2026-05-05T20:51:29.213Z
+  last_attempted_at: 2026-05-05T20:51:29.213Z
+  status: empty
+  items_created: 0
+  pipeline: agent-pipeline
+  provider: Tavily
+  error: No items extracted
+- url: https://en.wikipedia.org/wiki/Category:Internet_memes
+  normalized_url: https://en.wikipedia.org/wiki/Category:Internet_memes
+  first_seen_at: 2026-05-05T20:55:12.409Z
+  last_attempted_at: 2026-05-05T20:55:12.409Z
+  status: empty
+  items_created: 0
+  pipeline: agent-pipeline
+  provider: Local (Readability)
+  error: No items extracted
+- url: https://en.wikipedia.org/wiki/List_of_Internet_phenomena
+  normalized_url: https://en.wikipedia.org/wiki/List_of_Internet_phenomena
+  first_seen_at: 2026-05-05T21:14:37.137Z
+  last_attempted_at: 2026-05-05T21:14:37.137Z
+  status: empty
+  items_created: 0
+  pipeline: agent-pipeline
+  provider: Local (Readability)
+  error: No items extracted
+- url: https://imgflip.com/memetemplates?sort=top-all-time
+  normalized_url: https://imgflip.com/memetemplates?sort=top-all-time
+  first_seen_at: 2026-05-05T20:40:05.473Z
+  last_attempted_at: 2026-05-05T20:40:05.473Z
+  status: empty
+  items_created: 0
+  pipeline: agent-pipeline
+  provider: Local (Readability)
+  error: No items extracted
+- url: https://knowyourmeme.com/memes
+  normalized_url: https://knowyourmeme.com/memes
+  first_seen_at: 2026-05-05T20:35:00.899Z
+  last_attempted_at: 2026-05-05T20:35:00.899Z
+  status: empty
+  items_created: 0
+  pipeline: agent-pipeline
+  provider: Local (Readability)
+  error: No items extracted
+- url: https://knowyourmeme.com/memes?page=1
+  normalized_url: https://knowyourmeme.com/memes?page=1
+  first_seen_at: 2026-05-05T20:38:01.772Z
+  last_attempted_at: 2026-05-05T20:38:01.772Z
+  status: empty
+  items_created: 0
+  pipeline: agent-pipeline
+  provider: Local (Readability)
+  error: No items extracted
+- url: https://knowyourmeme.com/memes/distracted-boyfriend
+  normalized_url: https://knowyourmeme.com/memes/distracted-boyfriend
+  first_seen_at: 2026-05-05T20:44:19.241Z
+  last_attempted_at: 2026-05-05T20:44:19.241Z
+  status: empty
+  items_created: 0
+  pipeline: agent-pipeline
+  provider: Local (Readability)
+  error: No items extracted
+- url: https://knowyourmeme.com/memes/doge
+  normalized_url: https://knowyourmeme.com/memes/doge
+  first_seen_at: 2026-05-05T21:21:51.167Z
+  last_attempted_at: 2026-05-05T21:21:51.167Z
+  status: empty
+  items_created: 0
+  pipeline: agent-pipeline
+  provider: Local (Readability)
+  error: No items extracted
+- url: https://triad-city-beat.com/50-famous-memes-and-what-they-mean/
+  normalized_url: https://triad-city-beat.com/50-famous-memes-and-what-they-mean
+  first_seen_at: 2026-05-05T20:23:11.163Z
+  last_attempted_at: 2026-05-05T20:23:11.163Z
+  status: empty
+  items_created: 0
+  pipeline: agent-pipeline
+  provider: Local (Readability)
+  error: No items extracted
+- url: https://www.boredpanda.com/relatable-funny-memes/
+  normalized_url: https://www.boredpanda.com/relatable-funny-memes
+  first_seen_at: 2026-05-05T20:28:19.652Z
+  last_attempted_at: 2026-05-05T20:28:19.652Z
+  last_success_at: 2026-05-05T20:28:19.652Z
+  status: success
+  items_created: 2
+  pipeline: agent-pipeline
+- url: https://www.buzzfeed.com/bestoftheinternet/memes
+  normalized_url: https://www.buzzfeed.com/bestoftheinternet/memes
+  first_seen_at: 2026-05-05T20:32:27.739Z
+  last_attempted_at: 2026-05-05T20:32:27.739Z
+  status: empty
+  items_created: 0
+  pipeline: agent-pipeline
+  provider: Local (Readability)
+  error: No items extracted

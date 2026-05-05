@@ -34,7 +34,7 @@ pagination:
 custom_menu:
   header: []
   footer: []
-version: 0.1.3
+version: 0.1.4
 metadata:
   last_request_data:
     generation_method: create-update
@@ -77,11 +77,17 @@ metadata:
     create one.
 name: Awesome Memes
 providers:
-  contentExtractor: local-content-extractor
-  search: tavily
   pipeline: agent-pipeline
+  search: tavily
   ai: openrouter
+  contentExtractor: local-content-extractor
 website_repo: ever-works/awesome-memes-website
 schedule:
   enabled: true
   cadence: daily
+initial_prompt: Directory of best / well known (or less known, but funny) memes.
+  Make sure each memo has a picture at minimum and some description that include
+  what does it mean / why it's funny, how it was created (if known), some
+  context etc. Picture is best. Either found existing picture for meme or create
+  one.
+deployProvider: vercel

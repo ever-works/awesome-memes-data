@@ -46,3 +46,13 @@
   name: Copypasta
 - id: marvel
   name: Marvel
+- id: animation
+  name: Animation
+- id: early-internet
+  name: Early Internet
+- id: viral
+  name: Viral
+- id: cat
+  name: Cat
+- id: lolspeak
+  name: Lolspeak
