@@ -98,3 +98,7 @@
   name: Internet Prank
 - id: advice-animal
   name: Advice Animal
+- id: loop
+  name: Loop
+- id: dance
+  name: Dance
