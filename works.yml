@@ -78,7 +78,7 @@ metadata:
 name: Awesome Memes
 providers:
   search: tavily
-  contentExtractor: local-content-extractor
+  contentExtractor: tavily
   pipeline: agent-pipeline
   ai: openrouter
 website_repo: ever-works/awesome-memes-website
