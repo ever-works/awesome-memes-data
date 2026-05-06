@@ -256,6 +256,15 @@
   pipeline: agent-pipeline
   provider: Local (Readability)
   error: No items extracted
+- url: https://meme.com/memes/distracted-boyfriend
+  normalized_url: https://meme.com/memes/distracted-boyfriend
+  first_seen_at: 2026-05-06T19:15:56.672Z
+  last_attempted_at: 2026-05-06T19:15:56.672Z
+  status: empty
+  items_created: 0
+  pipeline: agent-pipeline
+  provider: Local (Readability)
+  error: No items extracted
 - url: https://memebase.cheezburger.com/tag/pictures
   normalized_url: https://memebase.cheezburger.com/tag/pictures
   first_seen_at: 2026-05-05T22:37:37.384Z
@@ -265,6 +274,15 @@
   pipeline: agent-pipeline
   provider: Local (Readability)
   error: No items extracted
+- url: https://memes.fandom.com/wiki/Special:AllPages
+  normalized_url: https://memes.fandom.com/wiki/Special:AllPages
+  first_seen_at: 2026-05-06T19:17:32.097Z
+  last_attempted_at: 2026-05-06T19:17:32.097Z
+  status: error
+  items_created: 0
+  pipeline: agent-pipeline
+  error: "Content extraction failed for URL:
+    https://memes.fandom.com/wiki/Special:AllPages"
 - url: https://r.jina.ai/http://en.m.wikipedia.org/wiki/List_of_Internet_memes
   normalized_url: https://r.jina.ai/http://en.m.wikipedia.org/wiki/List_of_Internet_memes
   first_seen_at: 2026-05-06T12:21:00.994Z
@@ -274,6 +292,15 @@
   pipeline: agent-pipeline
   error: "Content extraction failed for URL:
     https://r.jina.ai/http://en.m.wikipedia.org/wiki/List_of_Internet_memes"
+- url: https://r.jina.ai/http://en.wikipedia.org/wiki/Distracted_boyfriend
+  normalized_url: https://r.jina.ai/http://en.wikipedia.org/wiki/Distracted_boyfriend
+  first_seen_at: 2026-05-06T19:08:25.252Z
+  last_attempted_at: 2026-05-06T19:08:25.252Z
+  status: empty
+  items_created: 0
+  pipeline: agent-pipeline
+  provider: Tavily
+  error: No items extracted
 - url: https://r.jina.ai/http://en.wikipedia.org/wiki/List_of_Internet_memes
   normalized_url: https://r.jina.ai/http://en.wikipedia.org/wiki/List_of_Internet_memes
   first_seen_at: 2026-05-06T12:03:25.278Z
@@ -478,6 +505,15 @@
   pipeline: agent-pipeline
   provider: Tavily
   error: No items extracted
+- url: https://www.ranker.com/list/best-internet-memes-of-all-time/ranker-list
+  normalized_url: https://www.ranker.com/list/best-internet-memes-of-all-time/ranker-list
+  first_seen_at: 2026-05-06T19:16:39.675Z
+  last_attempted_at: 2026-05-06T19:16:39.675Z
+  status: error
+  items_created: 0
+  pipeline: agent-pipeline
+  error: "Content extraction failed for URL:
+    https://www.ranker.com/list/best-internet-memes-of-all-time/ranker-list"
 - url: https://www.reddit.com/r/memes/
   normalized_url: https://www.reddit.com/r/memes
   first_seen_at: 2026-05-06T07:20:53.414Z
