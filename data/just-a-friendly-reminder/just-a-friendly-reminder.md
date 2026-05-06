@@ -1,0 +1,1 @@
+## Overview\n\nA meme image titled 'Just a friendly reminder...' shared on Reddit's r/memes community.\n\n## Image\n\n![Just a friendly reminder...](https://i.redd.it/wg37k34uggjg1.jpeg)\n\n## Source\n\nView on Reddit: https://www.reddit.com/r/memes/comments/1r4jnof/just_a_friendly_reminder/

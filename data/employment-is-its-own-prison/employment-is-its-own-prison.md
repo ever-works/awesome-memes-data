@@ -1,0 +1,1 @@
+## Overview\n\nA meme image titled 'Employment is its own prison.' shared on Reddit's r/memes community.\n\n## Image\n\n![Employment is its own prison.](https://i.redd.it/mlhvxnktwhzg1.jpeg)\n\n## Source\n\nView on Reddit: https://www.reddit.com/r/memes/comments/1t5922q/employment_is_its_own_prison/

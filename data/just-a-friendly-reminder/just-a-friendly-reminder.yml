@@ -1,0 +1,18 @@
+name: Just a friendly reminder...
+description: A meme post titled 'Just a friendly reminder...' featuring an image
+  macro. Shared on Reddit's r/memes community.
+source_url: https://i.redd.it/wg37k34uggjg1.jpeg
+category: Meme
+tags:
+  - image
+  - humor
+  - reddit
+featured: false
+markdown: "## Overview\\n\\nA meme image titled 'Just a friendly reminder...'
+  shared on Reddit's r/memes community.\\n\\n## Image\\n\\n![Just a friendly
+  reminder...](https://i.redd.it/wg37k34uggjg1.jpeg)\\n\\n## Source\\n\\nView on
+  Reddit:
+  https://www.reddit.com/r/memes/comments/1r4jnof/just_a_friendly_reminder/"
+images:
+  - https://i.redd.it/wg37k34uggjg1.jpeg
+updated_at: 2026-05-06 17:59
