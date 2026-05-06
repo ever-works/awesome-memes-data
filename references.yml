@@ -16,10 +16,37 @@
   pipeline: agent-pipeline
   provider: Local (Readability)
   error: No items extracted
+- url: https://en.wikipedia.org/wiki/Doge_(meme)
+  normalized_url: https://en.wikipedia.org/wiki/Doge_(meme)
+  first_seen_at: 2026-05-06T05:43:52.573Z
+  last_attempted_at: 2026-05-06T05:43:52.573Z
+  status: empty
+  items_created: 0
+  pipeline: agent-pipeline
+  provider: Local (Readability)
+  error: No items extracted
+- url: https://en.wikipedia.org/wiki/List_of_Internet_memes
+  normalized_url: https://en.wikipedia.org/wiki/List_of_Internet_memes
+  first_seen_at: 2026-05-06T05:31:04.668Z
+  last_attempted_at: 2026-05-06T05:31:04.668Z
+  status: empty
+  items_created: 0
+  pipeline: agent-pipeline
+  provider: Local (Readability)
+  error: No items extracted
 - url: https://en.wikipedia.org/wiki/List_of_Internet_phenomena
   normalized_url: https://en.wikipedia.org/wiki/List_of_Internet_phenomena
   first_seen_at: 2026-05-05T21:14:37.137Z
   last_attempted_at: 2026-05-05T21:14:37.137Z
+  status: empty
+  items_created: 0
+  pipeline: agent-pipeline
+  provider: Local (Readability)
+  error: No items extracted
+- url: https://imgflip.com/memetemplates
+  normalized_url: https://imgflip.com/memetemplates
+  first_seen_at: 2026-05-06T05:12:43.547Z
+  last_attempted_at: 2026-05-06T05:12:43.547Z
   status: empty
   items_created: 0
   pipeline: agent-pipeline
@@ -33,6 +60,15 @@
   items_created: 0
   pipeline: agent-pipeline
   provider: Local (Readability)
+  error: No items extracted
+- url: https://knowyourmeme.com/
+  normalized_url: https://knowyourmeme.com/
+  first_seen_at: 2026-05-06T05:08:41.602Z
+  last_attempted_at: 2026-05-06T05:08:41.602Z
+  status: empty
+  items_created: 0
+  pipeline: agent-pipeline
+  provider: Tavily
   error: No items extracted
 - url: https://knowyourmeme.com/memes
   normalized_url: https://knowyourmeme.com/memes
@@ -74,6 +110,24 @@
   normalized_url: https://knowyourmeme.com/memes/memes
   first_seen_at: 2026-05-05T22:19:57.035Z
   last_attempted_at: 2026-05-05T22:19:57.035Z
+  status: empty
+  items_created: 0
+  pipeline: agent-pipeline
+  provider: Local (Readability)
+  error: No items extracted
+- url: https://knowyourmeme.com/memes/popular
+  normalized_url: https://knowyourmeme.com/memes/popular
+  first_seen_at: 2026-05-06T05:35:12.839Z
+  last_attempted_at: 2026-05-06T05:35:12.839Z
+  status: empty
+  items_created: 0
+  pipeline: agent-pipeline
+  provider: Local (Readability)
+  error: No items extracted
+- url: https://knowyourmeme.com/memes/ranked-lists
+  normalized_url: https://knowyourmeme.com/memes/ranked-lists
+  first_seen_at: 2026-05-06T05:10:56.203Z
+  last_attempted_at: 2026-05-06T05:10:56.203Z
   status: empty
   items_created: 0
   pipeline: agent-pipeline
@@ -149,6 +203,15 @@
   status: success
   items_created: 1
   pipeline: agent-pipeline
+- url: https://www.reddit.com/r/memes/top/?t=all
+  normalized_url: https://www.reddit.com/r/memes/top?t=all
+  first_seen_at: 2026-05-06T05:35:46.161Z
+  last_attempted_at: 2026-05-06T05:35:46.161Z
+  status: error
+  items_created: 0
+  pipeline: agent-pipeline
+  error: "Content extraction failed for URL:
+    https://www.reddit.com/r/memes/top/?t=all"
 - url: https://www.toptenz.net/top-10-viral-pictures-and-internet-memes.php
   normalized_url: https://www.toptenz.net/top-10-viral-pictures-and-internet-memes.php
   first_seen_at: 2026-05-05T22:13:20.654Z
