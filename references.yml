@@ -345,6 +345,15 @@
   pipeline: agent-pipeline
   provider: Local (Readability)
   error: No items extracted
+- url: https://thunderdungeon.com/2024/09/29/classic-memes-246/
+  normalized_url: https://thunderdungeon.com/2024/09/29/classic-memes-246
+  first_seen_at: 2026-05-06T18:09:17.564Z
+  last_attempted_at: 2026-05-06T18:09:17.564Z
+  status: empty
+  items_created: 0
+  pipeline: agent-pipeline
+  provider: Local (Readability)
+  error: No items extracted
 - url: https://trending.knowyourmeme.com/editorials/collections/30-memes-people-liked-the-most-in-march-2026
   normalized_url: https://trending.knowyourmeme.com/editorials/collections/30-memes-people-liked-the-most-in-march-2026
   first_seen_at: 2026-05-06T05:54:18.675Z
