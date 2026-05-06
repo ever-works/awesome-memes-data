@@ -114,6 +114,15 @@
   pipeline: agent-pipeline
   provider: Local (Readability)
   error: No items extracted
+- url: https://imgflip.com/popular-meme-ids
+  normalized_url: https://imgflip.com/popular-meme-ids
+  first_seen_at: 2026-05-06T16:06:14.401Z
+  last_attempted_at: 2026-05-06T16:06:14.401Z
+  status: empty
+  items_created: 0
+  pipeline: agent-pipeline
+  provider: Local (Readability)
+  error: No items extracted
 - url: https://knowyourmeme.com/
   normalized_url: https://knowyourmeme.com/
   first_seen_at: 2026-05-06T05:08:41.602Z
@@ -224,6 +233,15 @@
   normalized_url: https://knowyourmeme.com/memes/roll-safe
   first_seen_at: 2026-05-06T08:07:59.134Z
   last_attempted_at: 2026-05-06T08:07:59.134Z
+  status: empty
+  items_created: 0
+  pipeline: agent-pipeline
+  provider: Local (Readability)
+  error: No items extracted
+- url: https://knowyourmeme.com/memes/this-is-fine
+  normalized_url: https://knowyourmeme.com/memes/this-is-fine
+  first_seen_at: 2026-05-06T16:10:02.874Z
+  last_attempted_at: 2026-05-06T16:10:02.874Z
   status: empty
   items_created: 0
   pipeline: agent-pipeline
