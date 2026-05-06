@@ -112,3 +112,19 @@
   name: NLP
 - id: computer-vision
   name: Computer Vision
+- id: gif
+  name: Gif
+- id: reaction
+  name: Reaction
+- id: political
+  name: Political
+- id: gaming
+  name: Gaming
+- id: censorship
+  name: Censorship
+- id: reaction-image
+  name: Reaction Image
+- id: baby
+  name: Baby
+- id: success
+  name: Success
