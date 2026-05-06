@@ -159,6 +159,15 @@
   pipeline: agent-pipeline
   provider: Local (Readability)
   error: No items extracted
+- url: https://r.jina.ai/http://knowyourmeme.com/memes/doge
+  normalized_url: https://r.jina.ai/http://knowyourmeme.com/memes/doge
+  first_seen_at: 2026-05-06T07:24:22.056Z
+  last_attempted_at: 2026-05-06T07:24:22.056Z
+  status: error
+  items_created: 0
+  pipeline: agent-pipeline
+  error: "Content extraction failed for URL:
+    https://r.jina.ai/http://knowyourmeme.com/memes/doge"
 - url: https://stacker.com/stories/art-culture/50-famous-memes-and-what-they-mean
   normalized_url: https://stacker.com/stories/art-culture/50-famous-memes-and-what-they-mean
   first_seen_at: 2026-05-05T22:05:53.457Z
@@ -239,6 +248,15 @@
   pipeline: agent-pipeline
   error: "Content extraction failed for URL:
     https://www.buzzfeed.com/karimomo/the-best-memes-of-2023"
+- url: https://www.cheezburger.com/
+  normalized_url: https://www.cheezburger.com/
+  first_seen_at: 2026-05-06T07:20:04.582Z
+  last_attempted_at: 2026-05-06T07:20:04.582Z
+  status: empty
+  items_created: 0
+  pipeline: agent-pipeline
+  provider: Local (Readability)
+  error: No items extracted
 - url: https://www.complex.com/pop-culture/a/julie-fishman/the-100-greatest-internet-memes-of-all-time
   normalized_url: https://www.complex.com/pop-culture/a/julie-fishman/the-100-greatest-internet-memes-of-all-time
   first_seen_at: 2026-05-05T22:28:52.339Z
@@ -265,6 +283,14 @@
   status: success
   items_created: 1
   pipeline: agent-pipeline
+- url: https://www.reddit.com/r/memes/
+  normalized_url: https://www.reddit.com/r/memes
+  first_seen_at: 2026-05-06T07:20:53.414Z
+  last_attempted_at: 2026-05-06T07:20:53.414Z
+  status: error
+  items_created: 0
+  pipeline: agent-pipeline
+  error: "Content extraction failed for URL: https://www.reddit.com/r/memes/"
 - url: https://www.reddit.com/r/memes/top/?t=all
   normalized_url: https://www.reddit.com/r/memes/top?t=all
   first_seen_at: 2026-05-06T05:35:46.161Z
