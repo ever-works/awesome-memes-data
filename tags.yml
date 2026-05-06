@@ -82,3 +82,11 @@
   name: Party
 - id: photograph-scandal
   name: Photograph Scandal
+- id: image
+  name: Image
+- id: reddit-post
+  name: Reddit Post
+- id: reddit
+  name: Reddit
+- id: humor
+  name: Humor
