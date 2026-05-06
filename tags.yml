@@ -106,3 +106,9 @@
   name: Eminem
 - id: body-positive
   name: Body Positive
+- id: classification
+  name: Classification
+- id: nlp
+  name: NLP
+- id: computer-vision
+  name: Computer Vision
