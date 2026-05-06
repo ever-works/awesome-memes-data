@@ -90,3 +90,9 @@
   name: Reddit
 - id: humor
   name: Humor
+- id: bait-and-switch
+  name: Bait And Switch
+- id: music-video
+  name: Music Video
+- id: internet-prank
+  name: Internet Prank

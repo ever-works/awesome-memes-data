@@ -34,6 +34,15 @@
   pipeline: agent-pipeline
   provider: Local (Readability)
   error: No items extracted
+- url: https://en.wikipedia.org/wiki/Internet_meme
+  normalized_url: https://en.wikipedia.org/wiki/Internet_meme
+  first_seen_at: 2026-05-06T08:14:41.360Z
+  last_attempted_at: 2026-05-06T08:14:41.360Z
+  status: empty
+  items_created: 0
+  pipeline: agent-pipeline
+  provider: Local (Readability)
+  error: No items extracted
 - url: https://en.wikipedia.org/wiki/List_of_Internet_memes
   normalized_url: https://en.wikipedia.org/wiki/List_of_Internet_memes
   first_seen_at: 2026-05-06T05:31:04.668Z
@@ -105,6 +114,15 @@
   pipeline: agent-pipeline
   provider: Local (Readability)
   error: No items extracted
+- url: https://knowyourmeme.com/memes/all
+  normalized_url: https://knowyourmeme.com/memes/all
+  first_seen_at: 2026-05-06T08:23:09.376Z
+  last_attempted_at: 2026-05-06T08:23:09.376Z
+  status: empty
+  items_created: 0
+  pipeline: agent-pipeline
+  provider: Local (Readability)
+  error: No items extracted
 - url: https://knowyourmeme.com/memes/distracted-boyfriend
   normalized_url: https://knowyourmeme.com/memes/distracted-boyfriend
   first_seen_at: 2026-05-05T20:44:19.241Z
@@ -150,6 +168,23 @@
   pipeline: agent-pipeline
   provider: Local (Readability)
   error: No items extracted
+- url: https://knowyourmeme.com/memes/rickroll
+  normalized_url: https://knowyourmeme.com/memes/rickroll
+  first_seen_at: 2026-05-06T08:19:30.652Z
+  last_attempted_at: 2026-05-06T08:19:30.652Z
+  last_success_at: 2026-05-06T08:19:30.652Z
+  status: success
+  items_created: 1
+  pipeline: agent-pipeline
+- url: https://knowyourmeme.com/memes/roll-safe
+  normalized_url: https://knowyourmeme.com/memes/roll-safe
+  first_seen_at: 2026-05-06T08:07:59.134Z
+  last_attempted_at: 2026-05-06T08:07:59.134Z
+  status: empty
+  items_created: 0
+  pipeline: agent-pipeline
+  provider: Local (Readability)
+  error: No items extracted
 - url: https://memebase.cheezburger.com/tag/pictures
   normalized_url: https://memebase.cheezburger.com/tag/pictures
   first_seen_at: 2026-05-05T22:37:37.384Z
@@ -159,6 +194,24 @@
   pipeline: agent-pipeline
   provider: Local (Readability)
   error: No items extracted
+- url: https://r.jina.ai/http://en.wikipedia.org/wiki/List_of_Internet_phenomena
+  normalized_url: https://r.jina.ai/http://en.wikipedia.org/wiki/List_of_Internet_phenomena
+  first_seen_at: 2026-05-06T08:16:14.153Z
+  last_attempted_at: 2026-05-06T08:16:14.153Z
+  status: error
+  items_created: 0
+  pipeline: agent-pipeline
+  error: "Content extraction failed for URL:
+    https://r.jina.ai/http://en.wikipedia.org/wiki/List_of_Internet_phenomena"
+- url: https://r.jina.ai/http://knowyourmeme.com/memes/distracted-boyfriend
+  normalized_url: https://r.jina.ai/http://knowyourmeme.com/memes/distracted-boyfriend
+  first_seen_at: 2026-05-06T08:08:44.269Z
+  last_attempted_at: 2026-05-06T08:08:44.269Z
+  status: error
+  items_created: 0
+  pipeline: agent-pipeline
+  error: "Content extraction failed for URL:
+    https://r.jina.ai/http://knowyourmeme.com/memes/distracted-boyfriend"
 - url: https://r.jina.ai/http://knowyourmeme.com/memes/doge
   normalized_url: https://r.jina.ai/http://knowyourmeme.com/memes/doge
   first_seen_at: 2026-05-06T07:24:22.056Z
