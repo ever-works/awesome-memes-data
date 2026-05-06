@@ -52,6 +52,14 @@
   pipeline: agent-pipeline
   provider: Local (Readability)
   error: No items extracted
+- url: https://i.imgur.com/0X7v0ZJ.jpg
+  normalized_url: https://i.imgur.com/0X7v0ZJ.jpg
+  first_seen_at: 2026-05-06T07:09:01.036Z
+  last_attempted_at: 2026-05-06T07:09:01.036Z
+  status: error
+  items_created: 0
+  pipeline: agent-pipeline
+  error: "Content extraction failed for URL: https://i.imgur.com/0X7v0ZJ.jpg"
 - url: https://imgflip.com/memetemplates
   normalized_url: https://imgflip.com/memetemplates
   first_seen_at: 2026-05-06T05:12:43.547Z
@@ -187,6 +195,15 @@
   pipeline: agent-pipeline
   provider: Local (Readability)
   error: No items extracted
+- url: https://www.bloomingtonsouthoptimist.org/19651/opinion/top-10-memes-of-2024/
+  normalized_url: https://www.bloomingtonsouthoptimist.org/19651/opinion/top-10-memes-of-2024
+  first_seen_at: 2026-05-06T07:04:37.492Z
+  last_attempted_at: 2026-05-06T07:04:37.492Z
+  status: empty
+  items_created: 0
+  pipeline: agent-pipeline
+  provider: Local (Readability)
+  error: No items extracted
 - url: https://www.boredpanda.com/relatable-funny-memes/
   normalized_url: https://www.boredpanda.com/relatable-funny-memes
   first_seen_at: 2026-05-05T20:28:19.652Z
@@ -213,6 +230,15 @@
   pipeline: agent-pipeline
   provider: Local (Readability)
   error: No items extracted
+- url: https://www.buzzfeed.com/karimomo/the-best-memes-of-2023
+  normalized_url: https://www.buzzfeed.com/karimomo/the-best-memes-of-2023
+  first_seen_at: 2026-05-06T07:10:12.290Z
+  last_attempted_at: 2026-05-06T07:10:12.290Z
+  status: error
+  items_created: 0
+  pipeline: agent-pipeline
+  error: "Content extraction failed for URL:
+    https://www.buzzfeed.com/karimomo/the-best-memes-of-2023"
 - url: https://www.complex.com/pop-culture/a/julie-fishman/the-100-greatest-internet-memes-of-all-time
   normalized_url: https://www.complex.com/pop-culture/a/julie-fishman/the-100-greatest-internet-memes-of-all-time
   first_seen_at: 2026-05-05T22:28:52.339Z
