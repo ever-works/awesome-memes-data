@@ -38,18 +38,18 @@ markdown: >-
   highlighting the low expectations of the group.
 images:
   - https://images3.memedroid.com/images/UPLOADED226/5f1f8ade2db41.jpeg
-updated_at: 2026-05-06 09:59
+updated_at: 2026-05-06 10:02
 health:
   status: unknown
-  checked_at: 2026-05-06 09:59
+  checked_at: 2026-05-06 10:02
   status_code: null
   message: Automated check could not verify the source URL
-  failure_count: 1
+  failure_count: 2
   checked_via: manual
 source_validation:
   reachability_status: reachable
   accuracy_status: weak
-  checked_at: 2026-05-06 09:59
+  checked_at: 2026-05-06 10:02
   confidence_score: 0.75
   is_relevant: true
   is_specific: true
