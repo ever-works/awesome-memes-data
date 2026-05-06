@@ -77,10 +77,10 @@ metadata:
     create one.
 name: Awesome Memes
 providers:
-  pipeline: agent-pipeline
   search: tavily
-  ai: openrouter
   contentExtractor: local-content-extractor
+  pipeline: agent-pipeline
+  ai: openrouter
 website_repo: ever-works/awesome-memes-website
 schedule:
   enabled: true
