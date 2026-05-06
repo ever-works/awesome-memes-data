@@ -13,4 +13,23 @@ markdown: |-
   ## Details
   See the source URL for images, origin, and usage.
 images: []
-updated_at: 2026-05-02 15:48
+updated_at: 2026-05-06 09:57
+health:
+  status: unknown
+  checked_at: 2026-05-06 09:57
+  status_code: null
+  message: Automated check could not verify the source URL
+  failure_count: 1
+  checked_via: manual
+source_validation:
+  reachability_status: unknown
+  accuracy_status: unknown
+  checked_at: 2026-05-06 09:57
+  confidence_score: 0
+  is_relevant: false
+  is_specific: false
+  is_official: false
+  reason: The HTTP check could not verify the URL and no page content was
+    extracted, providing insufficient evidence to judge relevance or
+    specificity.
+  suggested_source_url: null
