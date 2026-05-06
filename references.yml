@@ -61,6 +61,15 @@
   pipeline: agent-pipeline
   provider: Local (Readability)
   error: No items extracted
+- url: https://httpbin.org/html
+  normalized_url: https://httpbin.org/html
+  first_seen_at: 2026-05-06T10:07:27.024Z
+  last_attempted_at: 2026-05-06T10:07:27.024Z
+  status: empty
+  items_created: 0
+  pipeline: agent-pipeline
+  provider: Local (Readability)
+  error: No items extracted
 - url: https://i.imgur.com/0X7v0ZJ.jpg
   normalized_url: https://i.imgur.com/0X7v0ZJ.jpg
   first_seen_at: 2026-05-06T07:09:01.036Z
