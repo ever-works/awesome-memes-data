@@ -390,6 +390,15 @@
   pipeline: agent-pipeline
   provider: Local (Readability)
   error: No items extracted
+- url: https://knowyourmeme.com/memes/ranked-lists/photos
+  normalized_url: https://knowyourmeme.com/memes/ranked-lists/photos
+  first_seen_at: 2026-05-07T09:06:40.452Z
+  last_attempted_at: 2026-05-07T09:06:40.452Z
+  status: empty
+  items_created: 0
+  pipeline: agent-pipeline
+  provider: Tavily
+  error: No items extracted
 - url: https://knowyourmeme.com/memes/rickroll
   normalized_url: https://knowyourmeme.com/memes/rickroll
   first_seen_at: 2026-05-06T08:19:30.652Z
@@ -616,6 +625,15 @@
   normalized_url: https://trending.knowyourmeme.com/editorials/collections/30-memes-people-liked-the-most-in-march-2026
   first_seen_at: 2026-05-06T05:54:18.675Z
   last_attempted_at: 2026-05-06T05:54:18.675Z
+  status: empty
+  items_created: 0
+  pipeline: agent-pipeline
+  provider: Local (Readability)
+  error: No items extracted
+- url: https://trending.knowyourmeme.com/editorials/collections/the-30-most-upvoted-memes-from-2024-rmemes
+  normalized_url: https://trending.knowyourmeme.com/editorials/collections/the-30-most-upvoted-memes-from-2024-rmemes
+  first_seen_at: 2026-05-07T09:04:22.706Z
+  last_attempted_at: 2026-05-07T09:04:22.706Z
   status: empty
   items_created: 0
   pipeline: agent-pipeline
