@@ -128,3 +128,13 @@
   name: Baby
 - id: success
   name: Success
+- id: star-fox
+  name: Star Fox
+- id: image-meme
+  name: Image Meme
+- id: comparison
+  name: Comparison
+- id: oc
+  name: Oc
+- id: stop-taunting-me
+  name: Stop Taunting Me

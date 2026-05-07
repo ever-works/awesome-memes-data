@@ -681,6 +681,15 @@
   pipeline: agent-pipeline
   error: "Content extraction failed for URL:
     https://www.ranker.com/list/best-internet-memes-of-all-time/ranker-list"
+- url: https://www.reddit.com/r/dankmemes/top/.json?limit=100
+  normalized_url: https://www.reddit.com/r/dankmemes/top/.json?limit=100
+  first_seen_at: 2026-05-07T07:10:40.674Z
+  last_attempted_at: 2026-05-07T07:10:40.674Z
+  status: error
+  items_created: 0
+  pipeline: agent-pipeline
+  error: "Content extraction failed for URL:
+    https://www.reddit.com/r/dankmemes/top/.json?limit=100"
 - url: https://www.reddit.com/r/memes/
   normalized_url: https://www.reddit.com/r/memes
   first_seen_at: 2026-05-06T07:20:53.414Z
@@ -694,6 +703,14 @@
   first_seen_at: 2026-05-06T17:59:54.825Z
   last_attempted_at: 2026-05-06T17:59:54.825Z
   last_success_at: 2026-05-06T17:59:54.825Z
+  status: success
+  items_created: 4
+  pipeline: agent-pipeline
+- url: https://www.reddit.com/r/memes/hot/.json?limit=100
+  normalized_url: https://www.reddit.com/r/memes/hot/.json?limit=100
+  first_seen_at: 2026-05-07T07:10:15.992Z
+  last_attempted_at: 2026-05-07T07:10:15.992Z
+  last_success_at: 2026-05-07T07:10:15.992Z
   status: success
   items_created: 4
   pipeline: agent-pipeline
@@ -749,6 +766,14 @@
   pipeline: agent-pipeline
   provider: Tavily
   error: No items extracted
+- url: https://www.reddit.com/r/memes/top/.json?limit=100
+  normalized_url: https://www.reddit.com/r/memes/top/.json?limit=100
+  first_seen_at: 2026-05-07T06:13:47.577Z
+  last_attempted_at: 2026-05-07T06:13:47.577Z
+  last_success_at: 2026-05-07T06:13:47.577Z
+  status: success
+  items_created: 5
+  pipeline: agent-pipeline
 - url: https://www.reddit.com/r/memes/top/.json?sort=top&t=all&limit=100
   normalized_url: https://www.reddit.com/r/memes/top/.json?limit=100&sort=top&t=all
   first_seen_at: 2026-05-06T22:24:57.487Z
@@ -769,6 +794,15 @@
   normalized_url: https://www.wikihow.com/Iconic-Memes
   first_seen_at: 2026-05-05T22:15:40.227Z
   last_attempted_at: 2026-05-05T22:15:40.227Z
+  status: empty
+  items_created: 0
+  pipeline: agent-pipeline
+  provider: Local (Readability)
+  error: No items extracted
+- url: https://www.wikipedia.org/
+  normalized_url: https://www.wikipedia.org/
+  first_seen_at: 2026-05-07T05:03:06.765Z
+  last_attempted_at: 2026-05-07T05:03:06.765Z
   status: empty
   items_created: 0
   pipeline: agent-pipeline
