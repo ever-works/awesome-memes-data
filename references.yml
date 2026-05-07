@@ -334,6 +334,15 @@
   pipeline: agent-pipeline
   provider: Local (Readability)
   error: No items extracted
+- url: https://knowyourmeme.com/memes/rolling-safe
+  normalized_url: https://knowyourmeme.com/memes/rolling-safe
+  first_seen_at: 2026-05-07T04:06:28.544Z
+  last_attempted_at: 2026-05-07T04:06:28.544Z
+  status: error
+  items_created: 0
+  pipeline: agent-pipeline
+  error: "Content extraction failed for URL:
+    https://knowyourmeme.com/memes/rolling-safe"
 - url: https://knowyourmeme.com/memes/this-is-fine
   normalized_url: https://knowyourmeme.com/memes/this-is-fine
   first_seen_at: 2026-05-06T16:10:02.874Z
@@ -696,6 +705,15 @@
   items_created: 0
   pipeline: agent-pipeline
   error: "Content extraction failed for URL: https://www.reddit.com/r/memes/top/"
+- url: https://www.reddit.com/r/memes/top/?sort=top&t=year
+  normalized_url: https://www.reddit.com/r/memes/top?sort=top&t=year
+  first_seen_at: 2026-05-07T04:04:42.773Z
+  last_attempted_at: 2026-05-07T04:04:42.773Z
+  status: error
+  items_created: 0
+  pipeline: agent-pipeline
+  error: "Content extraction failed for URL:
+    https://www.reddit.com/r/memes/top/?sort=top&t=year"
 - url: https://www.reddit.com/r/memes/top/?t=all
   normalized_url: https://www.reddit.com/r/memes/top?t=all
   first_seen_at: 2026-05-06T05:35:46.161Z
