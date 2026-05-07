@@ -34,6 +34,43 @@
   pipeline: agent-pipeline
   provider: Local (Readability)
   error: No items extracted
+- url: https://en.wikipedia.org/api/rest_v1/page/summary/Distracted_boyfriend
+  normalized_url: https://en.wikipedia.org/api/rest_v1/page/summary/Distracted_boyfriend
+  first_seen_at: 2026-05-07T08:02:45.382Z
+  last_attempted_at: 2026-05-07T08:02:45.382Z
+  status: empty
+  items_created: 0
+  pipeline: agent-pipeline
+  provider: Tavily
+  error: No items extracted
+- url: https://en.wikipedia.org/w/api.php?action=query&prop=extracts&exintro&explaintext&titles=Distracted_boyfriend&format=json
+  normalized_url: https://en.wikipedia.org/w/api.php?action=query&exintro=&explaintext=&format=json&prop=extracts&titles=Distracted_boyfriend
+  first_seen_at: 2026-05-07T08:00:47.491Z
+  last_attempted_at: 2026-05-07T08:00:47.491Z
+  status: error
+  items_created: 0
+  pipeline: agent-pipeline
+  error: "Content extraction failed for URL:
+    https://en.wikipedia.org/w/api.php?action=query&prop=extracts&exintro&expla\
+    intext&titles=Distracted_boyfriend&format=json"
+- url: https://en.wikipedia.org/w/index.php?title=Distracted_boyfriend&printable=yes
+  normalized_url: https://en.wikipedia.org/w/index.php?printable=yes&title=Distracted_boyfriend
+  first_seen_at: 2026-05-07T07:39:21.551Z
+  last_attempted_at: 2026-05-07T07:39:21.551Z
+  status: empty
+  items_created: 0
+  pipeline: agent-pipeline
+  provider: Local (Readability)
+  error: No items extracted
+- url: https://en.wikipedia.org/w/index.php?title=List_of_Internet_memes&printable=yes
+  normalized_url: https://en.wikipedia.org/w/index.php?printable=yes&title=List_of_Internet_memes
+  first_seen_at: 2026-05-07T07:59:57.150Z
+  last_attempted_at: 2026-05-07T07:59:57.150Z
+  status: empty
+  items_created: 0
+  pipeline: agent-pipeline
+  provider: Local (Readability)
+  error: No items extracted
 - url: https://en.wikipedia.org/w/index.php?title=List_of_Internet_phenomena&printable=yes
   normalized_url: https://en.wikipedia.org/w/index.php?printable=yes&title=List_of_Internet_phenomena
   first_seen_at: 2026-05-06T23:02:49.169Z
