@@ -156,6 +156,15 @@
   items_created: 0
   pipeline: agent-pipeline
   error: "Content extraction failed for URL: https://i.imgur.com/0X7v0ZJ.jpg"
+- url: https://imgflip.com/memetemplate/Distracted-Boyfriend
+  normalized_url: https://imgflip.com/memetemplate/Distracted-Boyfriend
+  first_seen_at: 2026-05-07T01:11:53.708Z
+  last_attempted_at: 2026-05-07T01:11:53.708Z
+  status: empty
+  items_created: 0
+  pipeline: agent-pipeline
+  provider: Local (Readability)
+  error: No items extracted
 - url: https://imgflip.com/memetemplates
   normalized_url: https://imgflip.com/memetemplates
   first_seen_at: 2026-05-06T05:12:43.547Z
@@ -267,6 +276,15 @@
   normalized_url: https://knowyourmeme.com/memes/popular
   first_seen_at: 2026-05-06T05:35:12.839Z
   last_attempted_at: 2026-05-06T05:35:12.839Z
+  status: empty
+  items_created: 0
+  pipeline: agent-pipeline
+  provider: Local (Readability)
+  error: No items extracted
+- url: https://knowyourmeme.com/memes/popular?page=1
+  normalized_url: https://knowyourmeme.com/memes/popular?page=1
+  first_seen_at: 2026-05-07T01:10:12.714Z
+  last_attempted_at: 2026-05-07T01:10:12.714Z
   status: empty
   items_created: 0
   pipeline: agent-pipeline
@@ -454,6 +472,15 @@
   normalized_url: https://thunderdungeon.com/2024/09/29/classic-memes-246
   first_seen_at: 2026-05-06T18:09:17.564Z
   last_attempted_at: 2026-05-06T18:09:17.564Z
+  status: empty
+  items_created: 0
+  pipeline: agent-pipeline
+  provider: Local (Readability)
+  error: No items extracted
+- url: https://trending.knowyourmeme.com/editorials/collections/25-randomly-funny-pictures-to-share-with-friends-colleagues-and-family
+  normalized_url: https://trending.knowyourmeme.com/editorials/collections/25-randomly-funny-pictures-to-share-with-friends-colleagues-and-family
+  first_seen_at: 2026-05-07T01:05:20.804Z
+  last_attempted_at: 2026-05-07T01:05:20.804Z
   status: empty
   items_created: 0
   pipeline: agent-pipeline
