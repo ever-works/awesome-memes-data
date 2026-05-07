@@ -1,3 +1,12 @@
+- url: http://quotes.toscrape.com
+  normalized_url: http://quotes.toscrape.com/
+  first_seen_at: 2026-05-07T02:17:16.824Z
+  last_attempted_at: 2026-05-07T02:17:16.824Z
+  status: empty
+  items_created: 0
+  pipeline: agent-pipeline
+  provider: Local (Readability)
+  error: No items extracted
 - url: https://api.imgflip.com/get_memes
   normalized_url: https://api.imgflip.com/get_memes
   first_seen_at: 2026-05-05T20:51:29.213Z
@@ -6,6 +15,15 @@
   items_created: 0
   pipeline: agent-pipeline
   provider: Tavily
+  error: No items extracted
+- url: https://en.m.wikipedia.org/wiki/Distracted_boyfriend
+  normalized_url: https://en.m.wikipedia.org/wiki/Distracted_boyfriend
+  first_seen_at: 2026-05-07T02:13:59.627Z
+  last_attempted_at: 2026-05-07T02:13:59.627Z
+  status: empty
+  items_created: 0
+  pipeline: agent-pipeline
+  provider: Local (Readability)
   error: No items extracted
 - url: https://en.m.wikipedia.org/wiki/List_of_Internet_memes
   normalized_url: https://en.m.wikipedia.org/wiki/List_of_Internet_memes
@@ -361,6 +379,15 @@
   pipeline: agent-pipeline
   provider: Local (Readability)
   error: No items extracted
+- url: https://memes.com/
+  normalized_url: https://memes.com/
+  first_seen_at: 2026-05-07T02:07:48.440Z
+  last_attempted_at: 2026-05-07T02:07:48.440Z
+  status: empty
+  items_created: 0
+  pipeline: agent-pipeline
+  provider: Local (Readability)
+  error: No items extracted
 - url: https://memes.fandom.com/wiki/Special:AllPages
   normalized_url: https://memes.fandom.com/wiki/Special:AllPages
   first_seen_at: 2026-05-06T19:17:32.097Z
@@ -406,6 +433,15 @@
   pipeline: agent-pipeline
   error: "Content extraction failed for URL:
     https://r.jina.ai/http://en.wikipedia.org/wiki/List_of_Internet_phenomena"
+- url: https://r.jina.ai/http://knowyourmeme.com/
+  normalized_url: https://r.jina.ai/http://knowyourmeme.com
+  first_seen_at: 2026-05-07T02:08:37.716Z
+  last_attempted_at: 2026-05-07T02:08:37.716Z
+  status: error
+  items_created: 0
+  pipeline: agent-pipeline
+  error: "Content extraction failed for URL:
+    https://r.jina.ai/http://knowyourmeme.com/"
 - url: https://r.jina.ai/http://knowyourmeme.com/memes/advice-animals
   normalized_url: https://r.jina.ai/http://knowyourmeme.com/memes/advice-animals
   first_seen_at: 2026-05-06T12:19:10.705Z
@@ -652,6 +688,14 @@
   status: success
   items_created: 4
   pipeline: agent-pipeline
+- url: https://www.reddit.com/r/memes/top/
+  normalized_url: https://www.reddit.com/r/memes/top
+  first_seen_at: 2026-05-07T02:03:49.494Z
+  last_attempted_at: 2026-05-07T02:03:49.494Z
+  status: error
+  items_created: 0
+  pipeline: agent-pipeline
+  error: "Content extraction failed for URL: https://www.reddit.com/r/memes/top/"
 - url: https://www.reddit.com/r/memes/top/?t=all
   normalized_url: https://www.reddit.com/r/memes/top?t=all
   first_seen_at: 2026-05-06T05:35:46.161Z
