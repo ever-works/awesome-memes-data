@@ -316,6 +316,15 @@
   pipeline: agent-pipeline
   error: "Content extraction failed for URL:
     https://knowyourmeme.com/memes/top/all-time"
+- url: https://knowyourmeme.com/photos/581296-doge
+  normalized_url: https://knowyourmeme.com/photos/581296-doge
+  first_seen_at: 2026-05-07T00:03:58.447Z
+  last_attempted_at: 2026-05-07T00:03:58.447Z
+  status: empty
+  items_created: 0
+  pipeline: agent-pipeline
+  provider: Local (Readability)
+  error: No items extracted
 - url: https://meme.com/memes/distracted-boyfriend
   normalized_url: https://meme.com/memes/distracted-boyfriend
   first_seen_at: 2026-05-06T19:15:56.672Z
