@@ -27,9 +27,7 @@ settings:
     hero_badge_text: Internet Culture, Explained
     hero_title: The Memes That
     hero_title_gradient: Shaped the Internet
-    hero_description: A curated collection of popular and niche memes — each with
-      its image, where it came from, what it means and why it's funny — so
-      you're never the last one to get the joke.
+    hero_description: A curated collection of popular and niche memes — where each came from, what it means and why it's funny, with the defining image or template wherever there is one — so you're never the last one to get the joke.
   footer:
     subscribe_enabled: true
     version_enabled: true
@@ -47,11 +45,7 @@ metadata:
     update_with_pull_request: false
     website_repository_creation_method: create-using-template
     name: Awesome Memes
-    prompt: Directory of best / well known (or less known, but funny) memes. Make
-      sure each memo has a picture at minimum and some description that include
-      what does it mean / why it's funny, how it was created (if known), some
-      context etc. Picture is best. Either found existing picture for meme or
-      create one.
+    prompt: Directory of best / well known (or less known, but funny) memes. Make sure each memo has a picture at minimum and some description that include what does it mean / why it's funny, how it was created (if known), some context etc. Picture is best. Either found existing picture for meme or create one.
     providers:
       pipeline: agent-pipeline
       search: tavily
@@ -76,11 +70,7 @@ metadata:
       max_results_per_query: 5
       max_pages_to_process: 10
       ai_first_generation_enabled: false
-  initial_prompt: Directory of best / well known (or less known, but funny) memes.
-    Make sure each memo has a picture at minimum and some description that
-    include what does it mean / why it's funny, how it was created (if known),
-    some context etc. Picture is best. Either found existing picture for meme or
-    create one.
+  initial_prompt: Directory of best / well known (or less known, but funny) memes. Make sure each memo has a picture at minimum and some description that include what does it mean / why it's funny, how it was created (if known), some context etc. Picture is best. Either found existing picture for meme or create one.
 name: Awesome Memes
 providers:
   search: tavily
@@ -88,11 +78,7 @@ providers:
   pipeline: agent-pipeline
   ai: openrouter
 website_repo: ever-works/awesome-memes-website
-initial_prompt: Directory of best / well known (or less known, but funny) memes.
-  Make sure each memo has a picture at minimum and some description that include
-  what does it mean / why it's funny, how it was created (if known), some
-  context etc. Picture is best. Either found existing picture for meme or create
-  one.
+initial_prompt: Directory of best / well known (or less known, but funny) memes. Make sure each memo has a picture at minimum and some description that include what does it mean / why it's funny, how it was created (if known), some context etc. Picture is best. Either found existing picture for meme or create one.
 deployProvider: vercel
 activity_sync:
   mode: pull
